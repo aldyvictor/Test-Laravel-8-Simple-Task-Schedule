@@ -1,0 +1,398 @@
+My first basic schedulerMy first basic scheduler
+   BadMethodCallException 
+
+  Method Illuminate\Database\Eloquent\Collection::notify does not exist.
+
+  at C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Macroable\Traits\Macroable.php:113
+    109▕      */
+    110▕     public function __call($method, $parameters)
+    111▕     {
+    112▕         if (! static::hasMacro($method)) {
+  ➜ 113▕             throw new BadMethodCallException(sprintf(
+    114▕                 'Method %s::%s does not exist.', static::class, $method
+    115▕             ));
+    116▕         }
+    117▕
+
+  • Bad Method Call: Did you mean Illuminate\Database\Eloquent\Collection::identity() ? 
+
+  1   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\app\Console\Commands\DailyMessage.php:53
+      Illuminate\Support\Collection::__call("notify")
+
+  2   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\DailyMessage::handle()
+
+   BadMethodCallException 
+
+  Method Illuminate\Database\Eloquent\Collection::notify does not exist.
+
+  at C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Macroable\Traits\Macroable.php:113
+    109▕      */
+    110▕     public function __call($method, $parameters)
+    111▕     {
+    112▕         if (! static::hasMacro($method)) {
+  ➜ 113▕             throw new BadMethodCallException(sprintf(
+    114▕                 'Method %s::%s does not exist.', static::class, $method
+    115▕             ));
+    116▕         }
+    117▕
+
+  • Bad Method Call: Did you mean Illuminate\Database\Eloquent\Collection::identity() ? 
+
+  1   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\app\Console\Commands\DailyMessage.php:53
+      Illuminate\Support\Collection::__call("notify")
+
+  2   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\DailyMessage::handle()
+
+   BadMethodCallException 
+
+  Method Illuminate\Database\Eloquent\Collection::notify does not exist.
+
+  at C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Macroable\Traits\Macroable.php:113
+    109▕      */
+    110▕     public function __call($method, $parameters)
+    111▕     {
+    112▕         if (! static::hasMacro($method)) {
+  ➜ 113▕             throw new BadMethodCallException(sprintf(
+    114▕                 'Method %s::%s does not exist.', static::class, $method
+    115▕             ));
+    116▕         }
+    117▕
+
+  • Bad Method Call: Did you mean Illuminate\Database\Eloquent\Collection::identity() ? 
+
+  1   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\app\Console\Commands\DailyMessage.php:53
+      Illuminate\Support\Collection::__call("notify")
+
+  2   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\DailyMessage::handle()
+
+   BadMethodCallException 
+
+  Call to undefined method Illuminate\Database\Eloquent\Builder::notify()
+
+  at C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Support\Traits\ForwardsCalls.php:71
+     67▕      * @throws \BadMethodCallException
+     68▕      */
+     69▕     protected static function throwBadMethodCallException($method)
+     70▕     {
+  ➜  71▕         throw new BadMethodCallException(sprintf(
+     72▕             'Call to undefined method %s::%s()', static::class, $method
+     73▕         ));
+     74▕     }
+     75▕ }
+
+  • Bad Method Call: Did you mean Illuminate\Database\Eloquent\Builder::oldest() ? 
+
+  1   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Support\Traits\ForwardsCalls.php:36
+      Illuminate\Database\Eloquent\Builder::throwBadMethodCallException("notify")
+
+  2   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:1658
+      Illuminate\Database\Eloquent\Builder::forwardCallTo(Object(Illuminate\Database\Query\Builder), "notify")
+
+   BadMethodCallException 
+
+  Call to undefined method Illuminate\Database\Eloquent\Builder::notify()
+
+  at C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Support\Traits\ForwardsCalls.php:71
+     67▕      * @throws \BadMethodCallException
+     68▕      */
+     69▕     protected static function throwBadMethodCallException($method)
+     70▕     {
+  ➜  71▕         throw new BadMethodCallException(sprintf(
+     72▕             'Call to undefined method %s::%s()', static::class, $method
+     73▕         ));
+     74▕     }
+     75▕ }
+
+  • Bad Method Call: Did you mean Illuminate\Database\Eloquent\Builder::oldest() ? 
+
+  1   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Support\Traits\ForwardsCalls.php:36
+      Illuminate\Database\Eloquent\Builder::throwBadMethodCallException("notify")
+
+  2   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:1658
+      Illuminate\Database\Eloquent\Builder::forwardCallTo(Object(Illuminate\Database\Query\Builder), "notify")
+
+   BadMethodCallException 
+
+  Call to undefined method Illuminate\Database\Eloquent\Builder::notify()
+
+  at C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Support\Traits\ForwardsCalls.php:71
+     67▕      * @throws \BadMethodCallException
+     68▕      */
+     69▕     protected static function throwBadMethodCallException($method)
+     70▕     {
+  ➜  71▕         throw new BadMethodCallException(sprintf(
+     72▕             'Call to undefined method %s::%s()', static::class, $method
+     73▕         ));
+     74▕     }
+     75▕ }
+
+  • Bad Method Call: Did you mean Illuminate\Database\Eloquent\Builder::oldest() ? 
+
+  1   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Support\Traits\ForwardsCalls.php:36
+      Illuminate\Database\Eloquent\Builder::throwBadMethodCallException("notify")
+
+  2   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:1658
+      Illuminate\Database\Eloquent\Builder::forwardCallTo(Object(Illuminate\Database\Query\Builder), "notify")
+
+   BadMethodCallException 
+
+  Call to undefined method Illuminate\Database\Eloquent\Builder::notify()
+
+  at C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Support\Traits\ForwardsCalls.php:71
+     67▕      * @throws \BadMethodCallException
+     68▕      */
+     69▕     protected static function throwBadMethodCallException($method)
+     70▕     {
+  ➜  71▕         throw new BadMethodCallException(sprintf(
+     72▕             'Call to undefined method %s::%s()', static::class, $method
+     73▕         ));
+     74▕     }
+     75▕ }
+
+  • Bad Method Call: Did you mean Illuminate\Database\Eloquent\Builder::oldest() ? 
+
+  1   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Support\Traits\ForwardsCalls.php:36
+      Illuminate\Database\Eloquent\Builder::throwBadMethodCallException("notify")
+
+  2   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:1658
+      Illuminate\Database\Eloquent\Builder::forwardCallTo(Object(Illuminate\Database\Query\Builder), "notify")
+
+   BadMethodCallException 
+
+  Call to undefined method Illuminate\Database\Eloquent\Builder::notify()
+
+  at C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Support\Traits\ForwardsCalls.php:71
+     67▕      * @throws \BadMethodCallException
+     68▕      */
+     69▕     protected static function throwBadMethodCallException($method)
+     70▕     {
+  ➜  71▕         throw new BadMethodCallException(sprintf(
+     72▕             'Call to undefined method %s::%s()', static::class, $method
+     73▕         ));
+     74▕     }
+     75▕ }
+
+  • Bad Method Call: Did you mean Illuminate\Database\Eloquent\Builder::oldest() ? 
+
+  1   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Support\Traits\ForwardsCalls.php:36
+      Illuminate\Database\Eloquent\Builder::throwBadMethodCallException("notify")
+
+  2   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:1658
+      Illuminate\Database\Eloquent\Builder::forwardCallTo(Object(Illuminate\Database\Query\Builder), "notify")
+
+   BadMethodCallException 
+
+  Call to undefined method Illuminate\Database\Eloquent\Builder::notify()
+
+  at C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Support\Traits\ForwardsCalls.php:71
+     67▕      * @throws \BadMethodCallException
+     68▕      */
+     69▕     protected static function throwBadMethodCallException($method)
+     70▕     {
+  ➜  71▕         throw new BadMethodCallException(sprintf(
+     72▕             'Call to undefined method %s::%s()', static::class, $method
+     73▕         ));
+     74▕     }
+     75▕ }
+
+  • Bad Method Call: Did you mean Illuminate\Database\Eloquent\Builder::oldest() ? 
+
+  1   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Support\Traits\ForwardsCalls.php:36
+      Illuminate\Database\Eloquent\Builder::throwBadMethodCallException("notify")
+
+  2   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:1658
+      Illuminate\Database\Eloquent\Builder::forwardCallTo(Object(Illuminate\Database\Query\Builder), "notify")
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[42S22]: Column not found: 1054 Unknown column '' in 'where clause' (SQL: select * from `users` where `` is null)
+
+  at C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Database\Connection.php:703
+    699▕         // If an exception occurs when attempting to run a query, we'll format the error
+    700▕         // message to include the bindings with SQL, which will make this exception a
+    701▕         // lot more helpful to the developer instead of just the database's errors.
+    702▕         catch (Exception $e) {
+  ➜ 703▕             throw new QueryException(
+    704▕                 $query, $this->prepareBindings($bindings), $e
+    705▕             );
+    706▕         }
+    707▕     }
+
+  • A column was not found: You might have forgotten to run your migrations. You can run your migrations using `php artisan migrate`. 
+    https://laravel.com/docs/master/migrations#running-migrations
+
+  1   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Database\Connection.php:359
+      PDOException::("SQLSTATE[42S22]: Column not found: 1054 Unknown column '' in 'where clause'")
+
+  2   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Database\Connection.php:359
+      PDO::prepare("select * from `users` where `` is null")
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[42S22]: Column not found: 1054 Unknown column '' in 'where clause' (SQL: select * from `users` where `` is null)
+
+  at C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Database\Connection.php:703
+    699▕         // If an exception occurs when attempting to run a query, we'll format the error
+    700▕         // message to include the bindings with SQL, which will make this exception a
+    701▕         // lot more helpful to the developer instead of just the database's errors.
+    702▕         catch (Exception $e) {
+  ➜ 703▕             throw new QueryException(
+    704▕                 $query, $this->prepareBindings($bindings), $e
+    705▕             );
+    706▕         }
+    707▕     }
+
+  • A column was not found: You might have forgotten to run your migrations. You can run your migrations using `php artisan migrate`. 
+    https://laravel.com/docs/master/migrations#running-migrations
+
+  1   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Database\Connection.php:359
+      PDOException::("SQLSTATE[42S22]: Column not found: 1054 Unknown column '' in 'where clause'")
+
+  2   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Database\Connection.php:359
+      PDO::prepare("select * from `users` where `` is null")
+
+   Error 
+
+  Call to a member function notify() on null
+
+  at C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\app\Console\Commands\DailyMessage.php:53
+     49▕             'thankyou' => 'You have 14 days to enroll'
+     50▕         ];
+     51▕ 
+     52▕ 
+  ➜  53▕         $user->notify(new TestEnrollment($enrollmentData));
+     54▕     }
+     55▕ }
+     56▕
+
+  1   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\DailyMessage::handle()
+
+  2   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Container\Util.php:40
+      Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+
+   Error 
+
+  Call to a member function notify() on null
+
+  at C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\app\Console\Commands\DailyMessage.php:53
+     49▕             'thankyou' => 'You have 14 days to enroll'
+     50▕         ];
+     51▕ 
+     52▕ 
+  ➜  53▕         $user->notify(new TestEnrollment($enrollmentData));
+     54▕     }
+     55▕ }
+     56▕
+
+  1   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\DailyMessage::handle()
+
+  2   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Container\Util.php:40
+      Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+
+   Error 
+
+  Call to a member function notify() on null
+
+  at C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\app\Console\Commands\DailyMessage.php:53
+     49▕             'thankyou' => 'You have 14 days to enroll'
+     50▕         ];
+     51▕ 
+     52▕ 
+  ➜  53▕         $user->notify(new TestEnrollment($enrollmentData));
+     54▕     }
+     55▕ }
+     56▕
+
+  1   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\DailyMessage::handle()
+
+  2   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Container\Util.php:40
+      Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+
+   Error 
+
+  Call to a member function notify() on null
+
+  at C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\app\Console\Commands\DailyMessage.php:53
+     49▕             'thankyou' => 'You have 14 days to enroll'
+     50▕         ];
+     51▕ 
+     52▕ 
+  ➜  53▕         $user->notify(new TestEnrollment($enrollmentData));
+     54▕     }
+     55▕ }
+     56▕
+
+  1   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\DailyMessage::handle()
+
+  2   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Container\Util.php:40
+      Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+
+   Error 
+
+  Call to a member function notify() on null
+
+  at C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\app\Console\Commands\DailyMessage.php:53
+     49▕             'thankyou' => 'You have 14 days to enroll'
+     50▕         ];
+     51▕ 
+     52▕ 
+  ➜  53▕         $user->notify(new TestEnrollment($enrollmentData));
+     54▕     }
+     55▕ }
+     56▕
+
+  1   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\DailyMessage::handle()
+
+  2   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Container\Util.php:40
+      Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+
+   Error 
+
+  Call to a member function notify() on null
+
+  at C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\app\Console\Commands\EveryMinuteMessage.php:52
+     48▕             'thankyou' => 'You have 14 days to enroll'
+     49▕         ];
+     50▕ 
+     51▕ 
+  ➜  52▕         $user->notify(new TestEnrollment($enrollmentData));
+     53▕     }
+     54▕ }
+     55▕
+
+  1   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\EveryMinuteMessage::handle()
+
+  2   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\laravel\framework\src\Illuminate\Container\Util.php:40
+      Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+^C
+   ErrorException 
+
+  fwrite(): Send of 18 bytes failed with errno=10054 An existing connection was forcibly closed by the remote host
+
+  at C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php:223
+    219▕             $bytesToWrite = \strlen($bytes);
+    220▕             $totalBytesWritten = 0;
+    221▕ 
+    222▕             while ($totalBytesWritten < $bytesToWrite) {
+  ➜ 223▕                 $bytesWritten = fwrite($this->in, substr($bytes, $totalBytesWritten));
+    224▕                 if (false === $bytesWritten || 0 === $bytesWritten) {
+    225▕                     break;
+    226▕                 }
+    227▕
+
+  1   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php:223
+      fwrite("HELO [127.0.0.1]
+")
+
+  2   C:\laragon\www\Laravel-Daily-Test\Test-Laravel-Task-Schedule\vendor\swiftmailer\swiftmailer\lib\classes\Swift\ByteStream\AbstractFilterableInputStream.php:168
+      Swift_Transport_StreamBuffer::doCommit("HELO [127.0.0.1]
+")
